@@ -1,0 +1,30 @@
+{
+  "Column": [
+    {
+      "COLUMN_NAME": "ACTIVO",
+      "MASTER": "EMPLEADOS",
+      "TYPE": "MATERIALIZED_VIEW_LOG"
+    },
+    {
+      "COLUMN_NAME": "NOMBRE",
+      "MASTER": "EMPLEADOS",
+      "TYPE": "MATERIALIZED_VIEW_LOG"
+    },
+    {
+      "COLUMN_NAME": "SALARIO",
+      "MASTER": "EMPLEADOS",
+      "TYPE": "MATERIALIZED_VIEW_LOG"
+    }
+  ],
+  "General": [
+    {
+      "INCLUDE_NEW_VALUES": "YES",
+      "MASTER": "EMPLEADOS",
+      "OBJECT_ID": "NO",
+      "PRIMARY_KEY": "NO",
+      "ROWIDS": "YES",
+      "SEQUENCE": "YES",
+      "TYPE": "MATERIALIZED_VIEW_LOG"
+    }
+  ]
+}
